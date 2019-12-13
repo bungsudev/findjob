@@ -1,0 +1,212 @@
+/* BungsuDev. Al azmi */
+
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Solway:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cuprum:700&display=swap');
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.logo {
+	width: 180px;
+	height: 50px;
+}
+
+.navbar {
+	background-color: #ffffff;
+    padding: .1rem 1rem;
+    border: none;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+button>.navbar-toggler {
+	color: #17a2b8 !important;
+}
+
+.navbar-nav .nav-link.text {
+	color: rgb(173, 173, 173);
+	font-family: 'Cuprum', sans-serif;
+	font-size: 18px;
+}
+
+
+.navbar-nav .nav-link.active {
+	color: #186d7a !important;
+	font-family: 'Cuprum', sans-serif;
+	font-size: 18px;
+}
+
+.navbar>div>ul>li>.text:hover {
+	color: #186d7a !important;
+	box-shadow: inset 0 -4px 0 #3fd5e0;
+}
+
+.btn {
+	margin: 5px;
+}
+
+.headpict {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	/* ie8 */
+
+}
+
+.modal-content {
+	/* background-color: #00C2B4; */
+	border: none;
+	color: #363636;
+}
+
+#formsignin {
+	margin-top: 30px;
+}
+
+.g-signin2 {
+	margin-top: 10px;
+}
+
+.reg1 {
+	font-size: 13px;
+}
+
+.reg2 a,
+a:hover,
+a:focus {
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.carousel-item {
+	filter: brightness(40%);
+}
+
+.carousel-caption h1 {
+	font-family: 'Solway', sans-serif;
+}
+
+.carousel-caption h5 {
+	font-family: 'Lobster Two', cursive;
+}
+
+.carousel-caption h4 {
+	font-family: 'Solway', sans-serif;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url("assets/font/proximaNova/Proxima Nova Alt Bold.otf");
+}
+
+.boxInner {
+	-webkit-box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.36);
+	-moz-box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.36);
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.36);
+	width: 320px;
+	height: 350px;
+	margin-bottom: 20px;
+    font-family: 'Baskervville', serif;
+    margin-right: 20px;
+}
+
+.boxInner h4,p{
+    /* color: #505050; */
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.boxInner button{
+    width: 310px;
+    height: 45px;
+    font-size: large;
+}
+
+.midCategory{
+	background-color: #fafafa;
+	width: 100%;
+}
+
+.categoryBox{
+	width: 285px;
+	height: 168px;
+	filter: blur(0.4px);
+	font-family: 'Baskervville', serif;
+}
+
+.categoryBox img{
+	width: 110px;
+	height: 90px;
+}
+
+.categoryBox:hover{
+	transform: scale(1.05);
+}
+
+footer{
+    width: 100%;
+	min-height: 300px;
+	max-height: 400px;
+	background-color: #212529;
+	color: #ffffff;
+	font-size: small;
+	/* margin-top: 50px; */
+}
+
+footer .box{
+	width: 50%px;
+	height: 100px;
+}
+
+footer > div h3{
+	font-family: 'Solway', sans-serif;
+}
+
+footer .social{
+	width: 40px;
+}
+
+footer .social:hover{
+	transform: scale(1.05);
+}
+
+.copyright{
+	width: 100%;
+	height: 20px;
+	background-color: #1c1f22;
+	color:#ffffff;
+}
+
+.copyrightLink:hover{
+	font-size:100%;
+	color: #3fd5e0
+}
+
+.loginBox{
+	width: 380px;
+	height: 540px;
+	background-color: #ffffff;
+	padding:30px;
+}
+
+.signupBox{
+	width: 350px;
+	height: 330px;
+	background-color: #ffffff;
+}
+
+.tes {
+	background-color: #da0e0e;
+	width: 100%;
+	height:200px;
+	position: absolute;
+}
