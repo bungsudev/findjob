@@ -17,7 +17,7 @@
 				<a class="text nav-link" href="#">Cari Lowongan</a>
 			</li>
 		</ul>
-		<button type="button" class="btn btn-outline-info" onclick="location.href='signup'">Sign Up</button>
-		<button type="button" class="btn btn-outline-success" onclick="location.href='auth/login'">Sign In</button>
+		<button type="button" class="btn btn-outline-info ml-0" onclick="location.href='signup'">Daftar</button>
+		<button type="button" class="btn btn-outline-success" onclick="location.href='auth/login'">Masuk</button>
 	</div>
 </nav>

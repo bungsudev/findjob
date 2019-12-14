@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Solway:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cuprum:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100&display=swap');
 
 body {
 	font-family: 'PT Sans', sans-serif;
@@ -79,7 +80,7 @@ button>.navbar-toggler {
 a:hover,
 a:focus {
 	text-decoration: none;
-	font-size: 13px;
+	/* font-size: 13px; */
 }
 
 .carousel-item {
@@ -152,6 +153,53 @@ a:focus {
 	transform: scale(1.05);
 }
 
+.loginBox{
+	width: 380px;
+	height: 540px;
+	background-color: #ffffff;
+	padding:30px;
+}
+
+.signupBox{
+	font-family: 'Cuprum', sans-serif;
+	width: 350px;
+	height: 330px;
+	color: #3d464d;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+.hrRight{
+	width: 100%;
+	height: 330px;
+	border-right: 1px solid #91989e;
+	padding: 0px;
+}
+
+.hrLeft{
+	width: 100%;
+	height: 330px;
+	border-left: 1px solid #c1c2c4;
+	padding: 0px;
+}
+
+.btn200{
+	width: 200px !important;
+	margin: 0;
+}
+
+.imgScale:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.textNone{
+	font-family: 'PT Sans', sans-serif !important;
+}
+
+
+
+
 footer{
     width: 100%;
 	min-height: 300px;
@@ -187,21 +235,7 @@ footer .social:hover{
 }
 
 .copyrightLink:hover{
-	font-size:100%;
 	color: #3fd5e0
-}
-
-.loginBox{
-	width: 380px;
-	height: 540px;
-	background-color: #ffffff;
-	padding:30px;
-}
-
-.signupBox{
-	width: 350px;
-	height: 330px;
-	background-color: #ffffff;
 }
 
 .tes {
