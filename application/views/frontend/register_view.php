@@ -4,49 +4,40 @@
 <body>
 	<?php $this->load->view("components/nav"); ?>
 
-	<div class="container-fluid bg-light">
+	<div class="container-fluid bg-light d-flex justify-content-center">
 		<div class="row">
-			<div class="col d-flex justify-content-center mt-3">
-				<div class="loginBox mb-3">
-					<div class="d-flex justify-content-center">
-						<img src="assets/images/login/avatar.png" alt="loginfindjob" width="120px" height="120px">
-					</div>
-					<hr>
-					<h4 class="d-flex justify-content-center">Sign up FindJob</h4>
-					<form action="login" method="POST">
-						<div class="form-group">
-							<label class="sr-only" for="identity">Email</label>
-							<div class="input-group">
-								<div class="input-group-prepend">
-									<div class="input-group-text"><span class="oi oi-envelope-closed"></span></div>
-								</div>
-								<input type="text" class="form-control" id="identity" placeholder="Email">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="sr-only" for="password">Password</label>
-							<div class="input-group">
-								<div class="input-group-prepend">
-									<div class="input-group-text"><span class="oi oi-key"></span></div>
-								</div>
-								<input type="password" class="form-control" id="password" placeholder="Password">
-							</div>
-						</div>
-						<div class="form-group">
-							<button class="ml-0 btn btn-block btn-info" id="btnsignin">SIGN UP</button>
-						</div>
-						<div class="form-group">
-							<div class="ml-1 row">
-								<div class="reg1 col-lg-7">Belum memiliki akun?</div>
-								<div class="reg2 col-lg-5">
-									<a href="#">Daftar disini</a>
-								</div>
-							</div>
-						</div>
-						<hr> <span class="d-flex justify-content-center">or</span>
-						<div class="g-signin2 d-flex justify-content-center" data-onsuccess="onSignIn"
-							data-theme="dark"></div>
-					</form>
+			<div class="col-lg-12 text-center mt-5">
+				<h5><strong class="text-secondary">Kami sangat senang anda disini!</strong></h5>
+				<h6 class="text-secondary">Apa yang bisa kami bantu?</h6>
+			</div>
+			<div class="col-lg-4 d-flex justify-content-center">
+				<div class="signupBox mt-5 mb-5 text-center">
+					<h5><strong>Saya mencari pekerjaan</strong></h5>
+					<h6 class="small text-secondary">Buat akun sebagai pencari kerja</h6 class="small">
+					<img class="mt-4 imgScale" src="assets/images/login/promotion.svg" alt="Daftar kerja di FindJob"
+						width="100px">
+					<a href="signup/pekerja">
+						<button class="btn btn-info btn-block mx-auto mt-4 mb-2 btn200">MULAI MENCARI KERJA</button>
+					</a>
+					<small class="textNone">Kamu juga dapat daftar menggunakan <a href="#">Google</a></small>
+				</div>
+			</div>
+			<div class="d-none d-lg-block col-lg-2 p-0">
+				<div class="hrRight mt-5"></div>
+			</div>
+			<div class="d-none d-lg-block col-lg-2 p-0">
+				<div class="hrLeft mt-5"></div>
+			</div>
+			<div class="col-lg-4  d-flex justify-content-center">
+				<div class="signupBox mt-5 mb-5 text-center">
+					<h5><strong>Saya mencari karyawan</strong></h5>
+					<h6 class="small text-secondary">Buat akun sebagai perekrut</h6 class="small">
+					<img class="mt-4 imgScale" src="assets/images/login/enterprise.svg"
+						alt="Daftar rekruiter di FindJob" width="100px">
+					<a href="#">
+						<button class="btn btn-info btn-block mx-auto btn200 mt-4 mb-2">MULAI MENJADI PEREKRUT</button>
+					</a>
+					<small class="textNone">Kamu juga dapat daftar menggunakan <a href="#">Google</a></small>
 				</div>
 			</div>
 		</div>
