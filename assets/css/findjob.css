@@ -6,8 +6,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cuprum:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-body {
+body, html {
 	font-family: 'PT Sans', sans-serif;
 }
 
@@ -29,9 +30,7 @@ button>.navbar-toggler {
 }
 
 .navbar-nav .nav-link.text {
-	color: rgb(173, 173, 173);
-	font-family: 'Cuprum', sans-serif;
-	font-size: 18px;
+	font-family: 'Lato', sans-serif;
 }
 
 
@@ -239,6 +238,7 @@ p {
 	font-size: 1rem;
 	font-weight: bold;
 	color: #343a40;
+	border-top: -#17a2b8 solid black;
 }
 
 .span-company{

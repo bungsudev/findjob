@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="google-signin-scope" content="profile email">
 	<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
-	<title>Document</title>
+	<title>FindJob</title>
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/findjob.css">
 	<script src="assets/js/jquery.min.js"></script>

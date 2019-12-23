@@ -34,7 +34,7 @@
 					<h6 class="small text-secondary">Buat akun sebagai perekrut</h6 class="small">
 					<img class="mt-4 imgScale" src="assets/images/login/enterprise.svg"
 						alt="Daftar rekruiter di FindJob" width="100px">
-					<a href="#">
+					<a href="signup/perusahaan">
 						<button class="btn btn-info btn-block mx-auto btn200 mt-4 mb-2">MULAI MENJADI PEREKRUT</button>
 					</a>
 					<small class="textNone">Kamu juga dapat daftar menggunakan <a href="#">Google</a></small>

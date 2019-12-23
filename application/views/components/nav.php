@@ -14,7 +14,7 @@
 				<a class="text nav-link" href="lowongan">Cari Lowongan</a>
 			</li>
 			<li class="nav-item">
-				<a class="text nav-link" href="#">Pasang Lowongan</a>
+				<a class="text nav-link" href="lowongan/tambah">Pasang Lowongan</a>
 			</li>
 		</ul>
 		<button type="button" class="btn btn-outline-info ml-0" onclick="location.href='signup'">Daftar</button>

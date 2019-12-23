@@ -48,7 +48,7 @@
 							<div class="ml-1 row">
 								<div class="reg1 col-lg-7">Sudah memiliki akun?</div>
 								<div class="reg2 col-lg-5">
-									<a href="auth/login">Daftar disini</a>
+									<a href="auth/login">Masuk disini</a>
 								</div>
 							</div>
 						</div>

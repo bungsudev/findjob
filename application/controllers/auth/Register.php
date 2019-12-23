@@ -5,6 +5,6 @@ class Register extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('frontend/register_view.php');
+		$this->load->view('design/register_view.php');
 	}
 }

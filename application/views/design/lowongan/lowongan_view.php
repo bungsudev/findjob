@@ -19,15 +19,15 @@
 					</select>
 					<button class="btn btn-info ml-0 flatButton">Cari</button>
 				</div>
-            </div>
-            <div class="col-12 col-sm-10 mt-3 ml-0 mr-0 float-right">
+			</div>
+			<div class="col-12 col-sm-10 mt-3 ml-0 mr-0 float-right">
 				<div class="input-group mb-3">
 					<select class="form-control col-sm-3 text-secondary" name="namakota" id="namakota">
 						<option value="#" selected disabled>Urut berdasarkan</option>
-                        <option value="#">Terbaru</option>
-                        <option value="#">Terpopuler</option>
-                        <option value="#">Paling banyak pemalar</option>
-                        <option value="#">Paling sedikit pemalar</option>
+						<option value="#">Terbaru</option>
+						<option value="#">Terpopuler</option>
+						<option value="#">Paling banyak pemalar</option>
+						<option value="#">Paling sedikit pemalar</option>
 					</select>
 				</div>
 			</div>
@@ -53,8 +53,8 @@
 							</div>
 						</div>
 					</div>
-                </a>
-                <a href="#">
+				</a>
+				<a href="#">
 					<div class="card borderNone border-bottom card-link mt-3">
 						<div class="card-body d-flex flex-row">
 							<div class="p-2 bd-highlight col-3 col-lg-3">
@@ -71,8 +71,8 @@
 							</div>
 						</div>
 					</div>
-                </a>
-                <a href="#">
+				</a>
+				<a href="#">
 					<div class="card borderNone border-bottom card-link mt-3">
 						<div class="card-body d-flex flex-row">
 							<div class="p-2 bd-highlight col-3 col-lg-3">
@@ -89,8 +89,8 @@
 							</div>
 						</div>
 					</div>
-                </a>
-                <a href="#">
+				</a>
+				<a href="#">
 					<div class="card borderNone border-bottom card-link mt-3">
 						<div class="card-body d-flex flex-row">
 							<div class="p-2 bd-highlight col-3 col-lg-3">
@@ -107,8 +107,8 @@
 							</div>
 						</div>
 					</div>
-                </a>
-                <a href="#">
+				</a>
+				<a href="#">
 					<div class="card borderNone border-bottom card-link mt-3">
 						<div class="card-body d-flex flex-row">
 							<div class="p-2 bd-highlight col-3 col-lg-3">
@@ -142,8 +142,8 @@
 							<span class="span-date text-muted">Posted : Minggu, 15 Desember 2019</span>
 						</div>
 					</div>
-                </a>
-                <a href="#">
+				</a>
+				<a href="#">
 					<div class="card text-center card-side">
 						<div class="card-header">
 							<span class="span-title"> PT. INALUM </span>
@@ -154,8 +154,8 @@
 							<span class="span-date text-muted">Posted : Minggu, 15 Desember 2019</span>
 						</div>
 					</div>
-                </a>
-                <a href="#">
+				</a>
+				<a href="#">
 					<div class="card text-center card-side">
 						<div class="card-header">
 							<span class="span-title"> PT. INALUM </span>
@@ -173,6 +173,11 @@
 
 	<?php $this->load->view('components/footer'); ?>
 	<?php $this->load->view('components/script'); ?>
+	<script>
+		$(document).ready(function () {
+			$('#tbllowongan').DataTable();
+		});
+	</script>
 </body>
 
 </html>

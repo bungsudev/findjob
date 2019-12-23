@@ -30,8 +30,8 @@
 			<div class="col-sm-12 col-lg-6 d-flex justify-content-center">
 				<div class="boxInner">
 					<h4 class="text-secondary"><b>Pencari Kerja</b></h4>
-					<img class="d-block mx-auto mt-4 imgScale" src="assets/images/jobseeker.png" alt="Cari kerja di FindJob."
-						width="200" height="100">
+					<img class="d-block mx-auto mt-4 imgScale" src="assets/images/jobseeker.png"
+						alt="Cari kerja di FindJob." width="200" height="100">
 					<p>Temukan masa depan anda bersama <strong>FindJob!</strong></p>
 					<button class="btn btn-block btn-info">Cari Lowongan <span
 							class="oi oi-chevron-right float-right mt-1"></span>
@@ -41,8 +41,8 @@
 			<div class="col-sm-12 col-lg-6 d-flex justify-content-center">
 				<div class="boxInner">
 					<h4 class="text-secondary"><b>Perusahaan</b></h4>
-					<img class="d-block mx-auto mt-4 imgScale" src="assets/images/employee.png" alt="Cari kerja di FindJob."
-						width="200" height="100">
+					<img class="d-block mx-auto mt-4 imgScale" src="assets/images/employee.png"
+						alt="Cari kerja di FindJob." width="200" height="100">
 					<p>Rekrut pelamar kerja terbaik Anda di <strong>FindJob!</strong></p>
 					<button class="btn btn-block btn-info">Posting Lowongan <span
 							class="oi oi-chevron-right float-right mt-1"></span>
