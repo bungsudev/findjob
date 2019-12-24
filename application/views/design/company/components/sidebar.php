@@ -1,5 +1,5 @@
 </head>
-<body class="nav-md footer_fixed">
+<body class="nav-md  footer_fixed">
 	<div class="container body">
 		<div class="main_container">
 			<div class="col-md-3 left_col menu_fixed">
@@ -31,7 +31,8 @@
 						<div class="menu_section">
 							<ul class="nav side-menu">
 							<?php $role = '1'; ?>
-							
+							<?php if ($role == '2'): ?>
+							<?php endif; ?>
 								<li><a href="company/home"><i class="fa fa-home"></i> Beranda </a></li>								
 								<li><a><i class="fa fa-tasks"></i> Kelola lamaran <span
 											class="fa fa-chevron-down"></span></a>
@@ -46,18 +47,15 @@
 								<li><a><i class="fa fa-bullhorn"></i> Kelola lowongan <span
 											class="fa fa-chevron-down"></span></a>
 									<ul class="nav child_menu">
-										<li><a href="#">Tambah lowongan</a></li>
-										<li><a href="#">Lowongan aktif</a></li>
-										<li><a href="#">Histori</a></li>
+										<li><a href="company/vacancy/tambah_lowongan">Tambah lowongan</a></li>
+										<li><a href="company/vacancy/lowongan_aktif">Lowongan aktif</a></li>
+										<li><a href="company/vacancy/histori_lowongan">Histori</a></li>
 									</ul>
-								</li>
-								
-								<li><a><i class="fa fa-sitemap"></i> Kelola daftar perusahaan </a></li>
-								<li><a><i class="fa fa-users"></i> Kelola pengguna </a></li>
-								<li><a><i class="fa fa-line-chart"></i> Statistik </a></li>
-								<li><a><i class="fa fa-print"></i> Laporan </a></li>
-								<?php if ($role == '2'): ?>
-							<?php endif; ?>
+								</li>								
+								<li><a href="company/manage/daftar_perusahaan"><i class="fa fa-sitemap"></i> Kelola daftar perusahaan </a></li>
+								<li><a href="company/manage/daftar_pengguna"><i class="fa fa-users"></i> Kelola pengguna </a></li>
+								<li><a href="company/manage/statistik"><i class="fa fa-line-chart"></i> Statistik </a></li>
+								<li><a href="#"><i class="fa fa-print"></i> Laporan </a></li>								
 							</ul>
 						</div>
 
