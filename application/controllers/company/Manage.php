@@ -30,10 +30,6 @@ Class Manage extends CI_Controller{
         $this->load->view('design/company/admin/daftarpengguna_view');
     }
 
-    public function statistik(){
-        $this->load->view('design/company/admin/statistik_view');
-    }
-
     
 }
 ?>
